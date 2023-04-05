@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : dim. 22 jan. 2023 à 22:17
+-- Généré le : mer. 05 avr. 2023 à 18:32
 -- Version du serveur : 5.7.36
 -- Version de PHP : 7.4.26
 
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS `scan` (
   `yn` varchar(255) COLLATE latin1_bin DEFAULT NULL,
   `lien` varchar(700) COLLATE latin1_bin DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=latin1 COLLATE=latin1_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=latin1 COLLATE=latin1_bin;
 
 --
 -- Déchargement des données de la table `scan`
@@ -140,7 +140,16 @@ INSERT INTO `scan` (`id`, `nom`, `photo`, `note`, `eprn`, `yn`, `lien`) VALUES
 (78, 'Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10 Nen ga Tattara Densetsu ni Natteita ', 'th-1777417530.jpg', 'F', '14', 'Non', 'https://www.mangatown.com/manga/koko_wa_ore_ni_makasete_saki_ni_ike_to_itte_kara_10_nen_ga_tattara_densetsu_ni_natteita/c014/2.html'),
 (79, 'Tensei shichatta yo (Iya, Gomen) ', 'th-837810828.jpg', 'B', '37', 'N', 'https://www.japanread.cc/manga/tensei-shichatta-yo-iya-gomen/37'),
 (80, 'Kanchigai no Atelier Meister', 'th-2162784377.jpg', 'B', '9', 'Non', 'https://www.mangaread.org/manga/kanchigai-no-atelier-meister/chapter-9/'),
-(81, 'Shounin Yuusha wa Isekai wo Gyuujiru! – Saibai Skill de Nandemo Fuyashi Chaimasu', 'shounin-yuusha-wa-isekai-wo-gyuujiru-saibai-skill-de-nandemo-fuyashi-chaimasu-light-novel-38811-2344503869.jpg', 'C', '12', 'Non', 'https://www.japanread.cc/manga/shounin-yuusha-wa-isekai-wo-gyuujiru-saibai-skill-de-nandemo-fuyashi-chaimasu/12');
+(81, 'Shounin Yuusha wa Isekai wo Gyuujiru! – Saibai Skill de Nandemo Fuyashi Chaimasu', 'shounin-yuusha-wa-isekai-wo-gyuujiru-saibai-skill-de-nandemo-fuyashi-chaimasu-light-novel-38811-2344503869.jpg', 'C', '12', 'Non', 'https://www.japanread.cc/manga/shounin-yuusha-wa-isekai-wo-gyuujiru-saibai-skill-de-nandemo-fuyashi-chaimasu/12'),
+(82, 'Tenkaichi - Nihon Saikyou Bugeisha Ketteisen', 'tenkaichi.jpg', 'A', '25', 'Non', 'https://mangapill.com/chapters/5769-10025000/tenkaichi-nihon-saikyou-bugeisha-ketteisen-chapter-25'),
+(83, 'Juujika no Rokunin', 'Juujika.jpg', 'A', '117', 'Non', 'https://www.mangaread.org/manga/juujika-no-rokunin/chapter-117/'),
+(84, 'Shuumatsu no Valkyrie ', 'Shuumatsu.jpg', 'A', '76', 'Non', 'https://www.japscan.lol/lecture-en-ligne/shuumatsu-no-valkyrie/76/1.html'),
+(85, 'Demon’s Sword Master Of Excalibur School', 'demon.jpg', 'B', '7', 'Non', 'https://www.mangaread.org/manga/demons-sword-master-of-excalibur-school/chapter-7/'),
+(86, 'Bijo To Kenja To Majin No Ken', 'Bijo.jpg', 'C', '10', 'Non', 'https://www.bentomanga.com/manga/bijo-to-kenja-to-majin-no-ken/chapter/10'),
+(87, 'Isekai Shikkaku ', 'shikkaku.jpg', 'C', '3', 'Non', 'https://manga-scantrad.io/manga/isekai-shikkaku/ch-3/'),
+(88, 'Monster no Goshujin-sama', 'Monster.jpg', 'A', '3', 'Non', 'https://www.bentomanga.com/manga/monster-no-goshujin-sama/chapter/3'),
+(89, 'A Warrior Exiled by the Hero and His Lover', 'Warrior.jpg', 'A', '15', 'Non', 'https://www.bentomanga.com/manga/a-warrior-exiled-by-the-hero-and-his-lover/chapter/15'),
+(90, 'Kamigami ni Sodaterare Shimo no, Saikyou to Naru ', 'Kamigami ni Sodaterare Shimo no, Saikyou to Naru.jpg', 'A', '2', 'Non', 'https://www.bentomanga.com/manga/kamigami-ni-sodaterare-shimo-no-saikyou-to-naru/chapter/28');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

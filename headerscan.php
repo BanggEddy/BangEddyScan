@@ -13,7 +13,7 @@ session_start();
 
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php"><img src="Images/logo.jpg" height="100" width="100" alt="..."></a>
       <div class="btn-group">
@@ -30,11 +30,11 @@ session_start();
         </div>
       </div>
       <div class="btn-group">
-        <a href="indexascan.php" class="btn btn-outline-secondary" aria-current="page">A</a>
-        <a href="indexbscan.php" class="btn btn-outline-secondary" aria-current="page">B</a>
-        <a href="indexcscan.php" class="btn btn-outline-secondary" aria-current="page">C</a>
-        <a href="indexdscan.php" class="btn btn-outline-secondary" aria-current="page">D</a>
-        <a href="indexescan.php" class="btn btn-outline-secondary" aria-current="page">E</a>
+        <a href="indexascan.php" class="btn btn-dark" aria-current="page">A</a>
+        <a href="indexbscan.php" class="btn btn-dark" aria-current="page">B</a>
+        <a href="indexcscan.php" class="btn btn-dark" aria-current="page">C</a>
+        <a href="indexdscan.php" class="btn btn-dark" aria-current="page">D</a>
+        <a href="indexescan.php" class="btn btn-dark" aria-current="page">E</a>
       </div>
     </div>
     <!-- Button trigger modal -->

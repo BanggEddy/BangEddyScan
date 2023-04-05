@@ -2,20 +2,20 @@
 
     <?php
 
-        $choix = $_GET["choix"];
+    $choix = $_GET["choix"];
 
-        $sql = "select * from scan where id=$choix";
+    $sql = "select * from scan where id=$choix";
 
-        $_SESSION["choix"] = $choix;
+    $_SESSION["choix"] = $choix;
 
-        include "fonctions.php";
-        $bdd = connect();
+    include "fonctions.php";
+    $bdd = connect();
 
-        $resultat=$bdd->query($sql);
+    $resultat = $bdd->query($sql);
 
-        $produit = $resultat->fetch(PDO::FETCH_OBJ);
+    $produit = $resultat->fetch(PDO::FETCH_OBJ);
 
-            echo "<form method='POST' action='secure_updatescan.php?choix=$choix' enctype='multipart/form-data'>
+    echo "<form method='POST' action='secure_updatescan.php?choix=$choix' enctype='multipart/form-data'>
             <div class='form-group'>
                 <label for='formGroupExampleInput'>Nom de l'anime : </label>
                 <input type='text' class='form-control' id='formGroupExampleInput' placeholder='nom du bonbon' name='nom' value='$produit->nom'>
@@ -40,11 +40,11 @@
 
                 <br><br>
 
-                <button type='submit' class='btn btn-primary'>Enregistrer</button>
+                <button type='submit'>Enregistrer</button>
             </div>
 
             </form>";
 
-?>
+    ?>
 
 <?php include("footer.php") ?>

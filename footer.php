@@ -7,6 +7,9 @@
   }, 2000);
 </script>
 
+<script src="./index.js"></script>
+
+
 <!-- Optional JavaScript; choose one of the two! -->
 <script src="to-top.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
